@@ -11,7 +11,7 @@
     <div id="header">
 <div class="container">
     <nav>
-        <img src="images/logo.jpg" class="logo">
+        <img src="images/logo.png" class="logo">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -26,9 +26,7 @@
     </div>
 </div>
 </div>
-<!-----------------------about------------------------------->
-
-
+<!-------------------------------------------about------------->
    <div id="about">
     <div class="container">
         <div class="row">
@@ -36,11 +34,53 @@
                 <img src="images/user.jpg">
             </div>
             <div class="about-col-2">
-                <h1>About me</h1>
+                <h1 class="sub-title">About me</h1>
+                <p>Hi, I’m Elavarasan, an active stock trader and market analyst with over 2 years of hands-on experience in the Indian financial markets—particularly in derivatives trading. My journey into the world of finance began with a deep fascination for market dynamics and a drive to decode the complexities of trading and investing.<br>
+
+<br>I specialize in derivatives trading, market trend analysis, and technical charting. With a mix of practical trading experience and academic insight, I strive to uncover opportunities in the ever-evolving Indian stock market.
+</p>
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience<p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+               <div class="tab-contents active-tab"id="skills">
+                <ul>
+                    <li><span>Stock Analyst</span><br>Designing Webapp</li>
+                    <li><span>web development</span><br>Designing Webapp</li>
+                    <li><span>app develop ment</span><br>Designing Webapp</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023-current</span><br>equity resech in freelance</li>
+                    <li><span>20223-2024</span><br>branch manager at River Day Groups</li>
+                    <li><span>2020-2022</span><br>Designing Webapp</li>
+                </ul>
+               </div><div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2026</span><br>MBA in Banking and Financial Services at SRM University,Kattankulathur, Chennai.</li>
+                    <li><span>2023</span><br>B.SC Computer Science at VIT University, Vellore.</li>
+                </ul>
+               </div> 
+    
             </div>
         </div>
     </div>
    </div>
-    
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tab-contents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+    }
+   </script>  
 </body>
 </html>
