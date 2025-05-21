@@ -323,7 +323,7 @@ form .btn2{
     color: #ff004f;
 }
 /*------------------css for small screens-----------------------*/
-nav .fas{
+nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
@@ -332,13 +332,14 @@ nav .fas{
     background-image: url(images/phone-background.png);
 }
     .header-text{
-        margin-top: 100%;
+        margin-top: 70%;
+        margin-left: 0;
         font-size: 16px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
     }
-    nav.fas{
+    nav .fa-solid{
     display: block;
     font-size: 25px;
 }
@@ -346,7 +347,7 @@ nav ul{
     background: #ff004f;
     position: fixed;
     top: 0;
-    right: -200px;
+    right: 0;
     width: 200px;
     height: 100vh;
     padding-top: 50px;
@@ -357,14 +358,14 @@ nav ul li{
     display: block;
     margin: 25px;
 }
-nav ul .fas{
+nav ul .fa-solid{
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
 }
 .sub-title{
-    font-size: 14px;
+    font-size: 25px;
 }
 .about-col-1, .about-col-2{
     flex-basis: 100%;
@@ -388,7 +389,7 @@ nav ul .fas{
 }
 #msg{
     color: #61b752;
-    margin-top: -20px;
+    margin-top: -40px;
     display: block;
 
 }
